@@ -65,4 +65,3 @@ rule = 30
 iterations = 500
 show_board(apply_rule(rule, iterations), rule)
 # run_all_rules(iterations)
-
