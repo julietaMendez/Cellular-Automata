@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
 def apply_rule(rule, iterations):
@@ -61,7 +60,17 @@ def run_all_rules(iterations):
         board = apply_rule(i, iterations)
         show_board(board, i) 
 
-rule = 30
-iterations = 500
+
+# Instructions to Run
+
+# 1. Set number of iterations
+iterations = 100
+
+# 2. Run 1 rule or all of them
+
+# 2a. Run 1 rule - Set rule & uncomment show_board()
+rule = 62
 show_board(apply_rule(rule, iterations), rule)
+
+# 2b. uncomment run_all_rules()
 # run_all_rules(iterations)
